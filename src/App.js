@@ -1,8 +1,8 @@
 import React from "react";
-import { Route, Routes } from "react-router-dom";
 import Login from "./screens/Login";
 import Register from "./screens/Register";
-import Home from "./screens/Home";
+import { Route, Routes } from "react-router-dom";
+import Home from "./screens/Home"
 
 function App() {
   return (
