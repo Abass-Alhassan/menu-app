@@ -16,7 +16,7 @@ function Header() {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container">
-    <a class="navbar-brand" href="#">SHOP FOR ME APP</a>
+    <a class="navbar-brand" href="#">Menu App</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -33,7 +33,7 @@ function Header() {
                       <li class="nav-item">
                           <a class="nav-link" href="#">
                               <FaUser />
-                              {user.username}
+                              {user ? user.username : ""}
                           </a>
                       </li>
                       <li class="nav-item">
